@@ -13,6 +13,9 @@ Our team decided to model a database that describes the inventory, transaction, 
 
 ![2023-03-31](https://user-images.githubusercontent.com/128402291/229181298-3c40e86e-e181-4a8f-9429-9c981037b743.png)
 
+Our team’s data model is based on the different stores Kroger has across the United States. Each store has many relationships with other entities in the table. For example, a store has many transactions, and in those transactions are many items. A store can also make multiple payments to one vendor, and each of those payments would have one invoice. Likewise, a store has many departments, and each of those departments also have relationships with other entities. More specifically, a department can have many inventories, and in each inventory is the quantity of an item (e.g. the Bakery department has cupcakes and cookies, and the quantity of those items are 100 and 50 (respectively)). A department also has many orders, and each order contains many items. Each order is made through one delivery and contains one invoice; however, a vendor can have multiple orders.
+
+
 
 ## Data Dictionary
 
@@ -28,3 +31,10 @@ Our team decided to model a database that describes the inventory, transaction, 
 ![Dic 10](https://user-images.githubusercontent.com/91034834/229182155-2689d36e-ab42-4953-a560-ea141d6b078b.PNG)
 ![Dic 11](https://user-images.githubusercontent.com/91034834/229182173-25f26457-01b3-4629-be93-b026bf410729.PNG)
 ![Dic 12](https://user-images.githubusercontent.com/91034834/229182196-664bd209-68c8-4a60-a5f8-082d6550670f.PNG)
+
+
+## Ten Queries 
+
+1. What is the average amount of invoices for each Department? 
+
+The query will run and show the average amount of invoices for each department in the stores. This is relevant because it could be put in a dashboard for the       Kroger manager to see how many invoices were received on average per month if implemented correctly. 
