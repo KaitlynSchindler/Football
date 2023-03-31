@@ -1,6 +1,6 @@
 ##  Team name and members:
 
-- Charles McCollough - 811961114 - Github Link 
+- Charles McCollough - 811961114 -  https://github.com/charlmc/McCollough-Kroger-P1 
 - Kaitlyn Schindler - 811910151 - https://github.com/KaitlynSchindler/Kroger
 - Amy Do - 811900843 - https://github.com/amydo21/Kroger
 - Lucas Sparger - 811580057 - https://github.com/lucassparger/Kroger
@@ -35,6 +35,4 @@ Our team’s data model is based on the different stores Kroger has across the U
 
 ## Ten Queries 
 
-1. What is the average amount of invoices for each Department? 
-
-The query will run and show the average amount of invoices for each department in the stores. This is relevant because it could be put in a dashboard for the       Kroger manager to see how many invoices were received on average per month if implemented correctly. 
+##  Matrix
